@@ -1,0 +1,28 @@
+name: pulse_fit
+description: Aplicacion Fitness con sensores y geolocalizacion en tiempo real.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  local_auth: ^2.3.0
+  pedometer: ^4.1.1
+  sensors_plus: ^6.1.2
+  geolocator: ^13.0.2
+  flutter_map: ^8.2.2
+  latlong2: ^0.9.1
+  permission_handler: ^12.0.1
+  shared_preferences: ^2.5.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
